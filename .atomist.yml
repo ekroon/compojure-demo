@@ -1,0 +1,17 @@
+---
+kind: "operation"
+client: "atomist 1.2"
+generator:
+  name: "CompojureAPIService"
+  group: "atomist-rugs"
+  artifact: "compojure-api-generator"
+  version: "1.3.0"
+  origin:
+    repo: "atomist-rugs/compojure-api-generator.git"
+    branch: "master"
+    sha: "3f7b37e"
+  parameters:
+    - "project_name": "compojure-demo"
+    - "project_description": "demo of compojure with atomist"
+    - "package_name": "nl.k3n.compojure_demo"
+
